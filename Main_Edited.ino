@@ -28,11 +28,11 @@ struct TagInfo {
   String ownerName;
   String phoneNumber;
 };
-
+// replace uid as follows and add phone number and name
 TagInfo tags[] = {
-   {"B9FBA594", "Sarwannandh", "+919704736991"},
-   {"331EBCE4", "Karthikeya", "+917702343067"},
-   {"748CAFA3", "Supradeep", "+917702343067"},
+   {"B9FBA594", "name", "+91"},
+   {"uid", "name", "+91"},
+   {"uid", "name", "+91"},
 };
 const int numTags = sizeof(tags) / sizeof(tags[0]);
 
